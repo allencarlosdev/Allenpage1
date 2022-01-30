@@ -8,6 +8,7 @@
     <title>CarlosAllenDev website</title>
     <!-- CSS -->
     <link rel="stylesheet" href="css/Allenpage1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
 </head>
 
 <body>
