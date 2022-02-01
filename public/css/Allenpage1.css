@@ -169,3 +169,71 @@ header .header-text {
 .images-gallery:hover .hover-gallery {
     transform: scale(1);
 }
+/* //////////////////////////////// About ////////////////////////////*/
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards .card {
+    background: #4710a0;
+    display: flex;
+    width: 94%;
+    height: 250px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .6);
+}
+
+.cards .card img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: block;
+}
+
+.cards .card > .content-text-card {
+    width: 65%;
+    color: #fff;
+}
+
+.cards .card > .content-text-card p {
+    font-weight: 300;
+    padding-top: 10px;
+}
+/* //////////////////////////////// Services ////////////////////////////*/
+
+.services {
+    background: #4710a0;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+.service-container {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.service-individual {
+    width: 46%;
+    text-align: center;
+}
+
+.service-individual img {
+    width: 90%;
+}
+
+.service-individual h3 {
+    margin: 10px 0;
+    color: #fff;
+}
+
+.service-individual p {
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+}

@@ -17,7 +17,7 @@
             <a href="#home">Home</a>
             <a href="#gallery">Gallery</a>
             <a href="#about">About</a>
-            <a href="#service">Service</a>
+            <a href="#services">Services</a>
             <a href="#contact">Contact</a>
         </nav>
         <section class="header-text">
@@ -105,12 +105,12 @@
                     <img src="{{ asset('img/designer1.svg') }}" alt="">
                     <div class="content-text-card">
                         <h4>Carlos Allen</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ad!</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium facilis sapiente quam deleniti ullam optio laboriosam laborum beatae neque exercitationem?</p>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="services" class="services container">
+        <section id="services" class="services">
             <div class="service-container">
                 <div class="service-individual">
                     <img src="{{ asset('img/imagesedition.svg') }}" alt="">
