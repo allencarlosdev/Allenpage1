@@ -111,6 +111,7 @@
             </div>
         </section>
         <section id="services" class="services">
+            <h2 class="title">Services</h2>
             <div class="service-container">
                 <div class="service-individual">
                     <img src="{{ asset('img/imagesedition.svg') }}" alt="">
