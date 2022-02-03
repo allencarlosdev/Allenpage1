@@ -127,6 +127,7 @@
         </section>
     </main>
     <footer>
+        <div class="wave-footer" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #4710a0;"></path></svg></div>
         <div id="contact" class="container-footer">
             <div class="content-footer">
                 <ul class="socials">
@@ -135,11 +136,12 @@
                                 class="fa fa-stack-overflow"></i></a></li>
                     <li><a href="https://www.linkedin.com/in/carlos-wilder-allen-pe%C3%B1a-7a7699123/" target="_blank"><i
                                 class="fa fa-linkedin"></i></a></li>
-                    <li><i class="fas fa-envelope-square"></i><h4>Email</h4><p> Allencarlosdev@gmail.com</p></li>
+                    <li class="li-icon"><a href="https://www.sololearn.com/profile/20725585" target="_blank"><i class="fab fa-stripe-s"></i></a></li>
                 </ul>
+                <h6>Email - Allencarlosdev@gmail.com</h6>
             </div>
+            <h4 class="copyright"> &copy; All copyrights - AllenCarlosdev 2022 </h4>
         </div>
-        <h2 class="copyright"> &copy; All copyrights - AllenCarlosdev 2022</h2>
     </footer>
     <!-- icon awesome-->
     <script src="https://kit.fontawesome.com/8d2cede7ac.js" crossorigin="anonymous"></script>
