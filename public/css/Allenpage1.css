@@ -13,6 +13,10 @@ body {
     font-family: 'open sans';
     background-color: #3e0796;
 }
+
+html {
+    scroll-behavior: smooth;
+}
 .container {
     padding: 60px 0;
     width: 90%;
@@ -331,3 +335,24 @@ footer {
     justify-content: center;
 }
 
+/* //////////////////////////////// Btn-scrolltop ////////////////////////////*/
+
+.btn-scrolltop {
+    background: #3e0796;
+    color:#8d2ce2;
+    border-radius: 50%;
+    font-size: 2em;
+    border: none;
+    box-shadow: 0 0 15px 0 #8d2ce2;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transform: scale(0);
+    transition: .3s;
+}
+
+.btn-scrolltop-on {
+    transform: scale(1);
+}

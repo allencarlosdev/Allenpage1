@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CarlosAllenDev website</title>
     <!-- CSS -->
-    <link rel="stylesheet" href="css/Allenpage1.css">
+    <link rel="stylesheet" href="{{ asset('css/Allenpage1.css') }}">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
 </head>
 
@@ -143,8 +143,13 @@
             <h4 class="copyright"> &copy; All copyrights - AllenCarlosdev 2022 </h4>
         </div>
     </footer>
+    <button id="btn_scrolltop" class="btn-scrolltop">
+        <i class="fas fa-chevron-up"></i>
+    </button>
     <!-- icon awesome-->
     <script src="https://kit.fontawesome.com/8d2cede7ac.js" crossorigin="anonymous"></script>
+    <!-- js script-->
+    <script type="text/javascript" src="{{ asset('js/main.js') }}"></script>
 </body>
 
 </html>
