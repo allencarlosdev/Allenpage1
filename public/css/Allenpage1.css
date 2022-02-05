@@ -127,6 +127,7 @@ header .header-text {
     padding: 0px 0px 30px 15px;
     color: #fff;
 }
+
 /* //////////////////////////////// Gallery ////////////////////////////*/
 
 .gallery-of-designs {
@@ -355,4 +356,32 @@ footer {
 
 .btn-scrolltop-on {
     transform: scale(1);
+}
+
+/* //////////////////////////////// Animation ////////////////////////////*/
+
+img {
+    opacity: .5;
+    transition: all .5s;
+}
+
+.transform_up {
+    transform: translateY(20%);
+}
+
+.transform_down {
+    transform: translateY(-20%);
+}
+
+.transform_left {
+    transform: translateX(20%);
+}
+
+.transform_right {
+    transform: translateX(-20%);
+}
+
+.appear {
+    opacity: 1;
+    transform:none;
 }

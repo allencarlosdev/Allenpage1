@@ -32,7 +32,7 @@
         <section id="home" class="container home">
             <h2 class="title"> Our design techniques</h2>
             <div class="container-home">
-                <img src="{{ asset('img/ourtecniquesallencarlos.svg') }}" alt="" class="image-our-tecniques">
+                <img src="{{ asset('img/ourtecniquesallencarlos.svg') }}" alt="" class="image-our-tecniques fade_up">
                 <div class="content-texts">
                     <h3 class=""><span>1</span> The best design techniques </h3>
                     <p class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus
@@ -54,42 +54,42 @@
                 <h2 class="title">Gallery of Designs</h2>
                 <div class="gallery">
                     <div class="images-gallery">
-                        <img src="{{ asset('img/gallery1.svg') }}" alt="">
+                        <img class="fade_down" src="{{ asset('img/gallery1.svg') }}" alt="">
                         <div class="hover-gallery">
                             <h3> Image 1</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, qui.</p>
                         </div>
                     </div>
                     <div class="images-gallery">
-                        <img src="{{ asset('img/gallery2.svg') }}" alt="">
+                        <img class="fade_down" src="{{ asset('img/gallery2.svg') }}" alt="">
                         <div class="hover-gallery">
                             <h3> Image 2</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, qui.</p>
                         </div>
                     </div>
                     <div class="images-gallery">
-                        <img src="{{ asset('img/gallery3.svg') }}" alt="">
+                        <img class="fade_down" src="{{ asset('img/gallery3.svg') }}" alt="">
                         <div class="hover-gallery">
                             <h3> Image 3</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, qui.</p>
                         </div>
                     </div>
                     <div class="images-gallery">
-                        <img src="{{ asset('img/gallery4.svg') }}" alt="">
+                        <img class="fade_down" src="{{ asset('img/gallery4.svg') }}" alt="">
                         <div class="hover-gallery">
                             <h3> Image 4</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, qui.</p>
                         </div>
                     </div>
                     <div class="images-gallery">
-                        <img src="{{ asset('img/gallery5.svg') }}" alt="">
+                        <img class="fade_down" src="{{ asset('img/gallery5.svg') }}" alt="">
                         <div class="hover-gallery">
                             <h3> Image 5</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, qui.</p>
                         </div>
                     </div>
                     <div class="images-gallery">
-                        <img src="{{ asset('img/gallery6.svg') }}" alt="">
+                        <img class="fade_down" src="{{ asset('img/gallery6.svg') }}" alt="">
                         <div class="hover-gallery">
                             <h3> Image 6</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, qui.</p>
@@ -102,7 +102,7 @@
             <h2 class="title"> Designer</h2>
             <div class="cards">
                 <div class="card">
-                    <img src="{{ asset('img/designer1.svg') }}" alt="">
+                    <img class="fade_left" src="{{ asset('img/designer1.svg') }}" alt="">
                     <div class="content-text-card">
                         <h4>Carlos Allen</h4>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium facilis sapiente quam deleniti ullam optio laboriosam laborum beatae neque exercitationem?</p>
@@ -149,7 +149,8 @@
     <!-- icon awesome-->
     <script src="https://kit.fontawesome.com/8d2cede7ac.js" crossorigin="anonymous"></script>
     <!-- js script-->
-    <script type="text/javascript" src="{{ asset('js/main.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/up_button.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/animation_fade.js') }}"></script>
 </body>
 
 </html>
