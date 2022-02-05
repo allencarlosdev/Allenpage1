@@ -12,6 +12,13 @@
 </head>
 
 <body>
+    <div id="loader" class="loader-background">
+        <div class="lds-ripple loader">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
     <header>
         <nav>
             <a href="#home">Home</a>
@@ -28,6 +35,7 @@
                 <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #3e0796;"></path>
             </svg></div>
     </header>
+
     <main>
         <section id="home" class="container home">
             <h2 class="title"> Our design techniques</h2>
@@ -151,6 +159,7 @@
     <!-- js script-->
     <script type="text/javascript" src="{{ asset('js/up_button.js') }}"></script>
     <script type="text/javascript" src="{{ asset('js/animation_fade.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/preloader.js') }}"></script>
 </body>
 
 </html>
