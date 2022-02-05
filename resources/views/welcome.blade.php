@@ -17,6 +17,7 @@
             <div></div>
             <div></div>
         </div>
+        <h2>Please wait</h2>
     </div>
 
     <header>
