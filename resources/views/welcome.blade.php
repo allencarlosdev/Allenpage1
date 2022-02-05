@@ -33,7 +33,7 @@
             <h2 class="title"> Our design techniques</h2>
             <div class="container-home">
                 <img src="{{ asset('img/ourtecniquesallencarlos.svg') }}" alt="" class="image-our-tecniques fade_up">
-                <div class="content-texts">
+                <div class="content-texts fade_right">
                     <h3 class=""><span>1</span> The best design techniques </h3>
                     <p class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus
                         veritatis minima ipsam. Accusantium eum, debitis vero laudantium officiis ut eligendi odio,
@@ -101,9 +101,9 @@
         <section id="about" class="designer container">
             <h2 class="title"> Designer</h2>
             <div class="cards">
-                <div class="card">
+                <div class="card fade_down">
                     <img class="fade_left" src="{{ asset('img/designer1.svg') }}" alt="">
-                    <div class="content-text-card">
+                    <div class="content-text-card fade_up">
                         <h4>Carlos Allen</h4>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium facilis sapiente quam deleniti ullam optio laboriosam laborum beatae neque exercitationem?</p>
                     </div>
@@ -112,7 +112,7 @@
         </section>
         <section id="services" class="services">
             <h2 class="title">Services</h2>
-            <div class="service-container">
+            <div class="service-container fade_down">
                 <div class="service-individual">
                     <img src="{{ asset('img/imagesedition.svg') }}" alt="">
                     <h3>Image Edition</h3>

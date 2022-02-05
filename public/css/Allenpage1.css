@@ -93,6 +93,10 @@ header .header-text {
 }
 /* //////////////////////////////// Home ////////////////////////////*/
 
+.home {
+    padding:  0 0 15px 0;
+}
+
 .container-home {
     display: flex;
     justify-content: space-evenly;
@@ -362,7 +366,7 @@ footer {
 
 img {
     opacity: .5;
-    transition: all .5s;
+    transition: all .7s;
 }
 
 .transform_up {
@@ -384,4 +388,20 @@ img {
 .appear {
     opacity: 1;
     transform:none;
+}
+
+#about .fade_down {
+    transition: all .7s;
+}
+
+#about .fade_up {
+    transition: all .7s;
+}
+
+#home .fade_right {
+    transition: all .7s;
+}
+
+#services .fade_down {
+    transition: all .7s;
 }
