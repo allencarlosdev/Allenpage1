@@ -161,6 +161,7 @@ header .header-text {
     display: block;
 }
 
+
 .hover-gallery {
     background: hsla(272, 76%, 53%, .6);
     position: absolute;
@@ -177,6 +178,7 @@ header .header-text {
 
 .hover-gallery p {
     color: #fff;
+    padding: 30px;
 }
 
 .hover-gallery h3 {
@@ -272,6 +274,7 @@ header .header-text {
     color: #fff;
     font-weight: 300;
     text-align: center;
+    padding: 15px;
 }
 
 /* //////////////////////////////// Footer - contact ////////////////////////////*/
@@ -471,6 +474,83 @@ img {
     height: 300px;
 }
 
+/* //////////////////////////////// Responsive Design ////////////////////////////*/
 
+@media screen and (max-width:950px) {
+    header {
+        background-position: center;
+    }
+    /* Home */
+    .container-home {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
+    .container-home .content-texts {
+        width: 90%;
+    }
 
+    .image-our-tecniques {
+        width: 90%;
+    }
+
+    .transform_right {
+        transform: translateX(4%);
+    }
+
+    /* Gallery */
+    .images-gallery {
+        width: 44%;
+    }
+
+    /* About */
+    .cards {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cards .card {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .cards .card img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .content-text-card p {
+        font-weight: 300;
+        padding-left: 15px;
+    }
+
+    .content-text-card h4 {
+        padding: 10px;
+    }
+
+    .card .transform_left {
+        transform: translateX(4%);
+    }
+
+    /* Services */
+
+    .service-container {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .service-individual {
+        width: 90%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    /* Footer - Contact*/
+
+    .content-footer {
+        width: 80%;
+    }
+
+}
