@@ -215,7 +215,7 @@ header .header-text {
 .cards .card {
     background: #4710a0;
     display: flex;
-    width: 94%;
+    width: 95%;
     height: 250px;
     align-items: center;
     justify-content: space-evenly;
@@ -580,6 +580,12 @@ img {
 
 @media screen and (max-width:500px) {
 
+    /* general */
+
+    .container {
+        padding: 0;
+    }
+
     /* Menu - responsive */
 
     .background-menu {
@@ -630,4 +636,98 @@ img {
     #check:checked ~ ul {
         left: 0;
     }
+
+    /* Home */
+    .header-text h1 {
+        font-size: 25px;
+    }
+    .header-text h2 {
+        font-size: 15px;
+    }
+
+    .image-our-tecniques {
+        margin-bottom: 60px;
+    }
+    /* Gallery */
+
+    .title {
+        margin-top: 0;
+    }
+
+    .images-gallery {
+        width: 95%;
+    }
+
+    /* Services */
+
+    .cards .card > .content-text-card {
+        width: 100%;
+    }
+
+    .cards {
+        padding-bottom: 60px;
+    }
+    .cards .card {
+        width: 99%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Services */
+
+    .services {
+        padding-top: 0;
+    }
+
+    /* Footer - Contact */
+
+    footer {
+        padding: 10px 0 30px 0;
+        height: 300px;
+    }
+
+    .content-footer {
+        width: 95%;
+        padding-top: 40px;
+    }
+
+    .socials {
+        justify-content: space-around;
+        margin: 80px 0 30px 0;
+        width: 90%;
+    }
+
+
+    .socials li a {
+        font-size: 1.8em;
+        margin: 10px;
+        padding: 4px;
+    }
+
+    .socials li a:hover {
+        color: #8d2ce2;
+        margin: 5px;
+        padding: 1px;
+        border-radius: 2px;
+        box-shadow: 1px 2px 5px 5px #8d2ce2;
+    }
+
+    .copyright {
+        margin: 5px 5px;
+        font-size: 12px;
+    }
+
+    /* //////////////////////////////// Btn-scrolltop ////////////////////////////*/
+
+    .btn-scrolltop {
+        font-size: 1.5em;
+        box-shadow: 0 0 10px 0 #8d2ce2;
+        bottom: 10px;
+        right: 10px;
+        padding: 5px 10px;
+
+    }
+
 }
