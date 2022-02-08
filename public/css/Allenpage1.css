@@ -51,7 +51,11 @@ nav {
     padding: 25px 60px 0 0;
 }
 
-nav > a {
+.nav-menu li {
+    display: inline-block;
+}
+
+.nav-menu a {
     color: #fff;
     font-weight: 300;
     text-decoration: none;
@@ -59,13 +63,27 @@ nav > a {
     padding: 8px;
 }
 
-nav > a:hover {
+.nav-menu a:hover {
     padding: 8px;
     border-radius: 5px;
     box-shadow: 2px 3px 15px 5px #8d2ce2;
     transition-delay: 0.01s;
     transition-duration: .2s;
 }
+
+.checkbtn {
+    font-size: 2rem;
+    color: #fff;
+    text-align: left;
+    margin: 15px 0 30px 15px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
 
 header .header-text {
     display: flex;
@@ -474,6 +492,7 @@ img {
     height: 300px;
 }
 
+
 /* //////////////////////////////// Responsive Design ////////////////////////////*/
 
 @media screen and (max-width:950px) {
@@ -547,10 +566,68 @@ img {
         margin-bottom: 50px;
     }
 
+    .services .transform_down {
+        transform: translateY(0%);
+    }
+
     /* Footer - Contact*/
 
     .content-footer {
         width: 80%;
     }
 
+}
+
+@media screen and (max-width:500px) {
+
+    /* Menu - responsive */
+
+    .background-menu {
+        background: hsla(272, 76%, 53%, 0.2);
+        position: fixed;
+        width: 100%;
+        height: 80px;
+        z-index: 29000;
+        top: 0;
+    }
+
+    #check {
+        position: fixed;
+        z-index: 30000;
+    }
+    .checkbtn {
+        position: fixed;
+        display: block;
+        z-index: 31000;
+    }
+
+    .nav-menu {
+        position: fixed;
+        width: 100%;
+        height: 70vh;
+        background: linear-gradient(90deg, rgba(62,7,150,1) 0%, rgba(96,33,196,1) 39%, rgba(141,44,226,1) 100%);
+        text-align: center;
+        top: 80px;
+        left: -100%;
+        transition: all .5s;
+        z-index: 40000;
+    }
+
+    .nav-menu li {
+        display: block;
+        margin-top: 35px;
+    }
+
+    .nav-menu a {
+        margin-top: 15px;
+    }
+
+    .nav-menu a:hover {
+        color: #3e0796;
+        box-shadow: none;
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+    }
 }
