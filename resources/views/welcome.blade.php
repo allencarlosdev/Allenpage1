@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CarlosAllenDev website</title>
+    <!--favicon-->
+    <link rel="icon" href="{{ asset('img/icon-Allenpage.png') }}">
     <!-- CSS -->
     <link rel="stylesheet" href="{{ asset('css/Allenpage1.css') }}">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
