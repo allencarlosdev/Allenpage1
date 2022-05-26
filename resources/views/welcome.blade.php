@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>CarlosAllenDev website</title>
+    <title>AllenCarlosDev website</title>
     <!--favicon-->
     <link rel="icon" href="{{ asset('img/icon-Allenpage.png') }}">
     <!-- CSS -->
@@ -150,9 +150,9 @@
         <div id="contact" class="container-footer">
             <div class="content-footer">
                 <ul class="socials">
-                    <li><a href="https://github.com/CarlosAllen93" target="_blank"><i class="fa fa-github"></i></a></li>
+                    <li><a href="https://github.com/allencarlosdev" target="_blank"><i class="fa fa-github"></i></a></li>
                     <li><a href="https://stackoverflow.com/users/16209550/carlos-allen" target="_blank"><i class="fa fa-stack-overflow"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/carlos-wilder-allen-pe%C3%B1a-7a7699123/" target="_blank"><i
+                    <li><a href="https://www.linkedin.com/in/allencarlosdev/" target="_blank"><i
                                 class="fa fa-linkedin"></i></a></li>
                     <li class="li-icon"><a href="https://www.sololearn.com/profile/20725585" target="_blank"><i class="fab fa-stripe-s"></i></a></li>
                 </ul>
