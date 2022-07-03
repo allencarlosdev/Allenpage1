@@ -1,5 +1,5 @@
 /*                                                   Author: Ing Carlos Allen                                               /*
-/*                                               https://github.com/CarlosAllen93                                           /*
+/*                                               https://github.com/allencarlosdev                                        /*
 /*                                               contact : allencarlosDev@gmail.com                                         /*
 
 /* /////////////////////////////////////////////////////////////////////// General ////////////////////////////////////////////// */
@@ -34,7 +34,7 @@ html {
 
 header {
     width: 100%;
-    height: 600px;
+    height: 1000px;
     background: #8d2ce2;
       /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, rgba(75, 0, 224, 0.7), hsla(272, 76%, 53%, 0.600)), url(../img/portada1.svg);
@@ -87,7 +87,7 @@ nav {
 
 header .header-text {
     display: flex;
-    height: 430px;
+    height: 630px;
     width: 100%;
     align-items: center;
     justify-content: center;
