@@ -1,7 +1,5 @@
 
-# Allenpage1
-
-_**Number of pages for the portfolio :** 1/6_
+# Page of Graphic design
 
 **Web Theme :**
 
@@ -9,7 +7,7 @@ graphic design
 
 **Purpose of the page :**
 
-show your galleries of images, services and design techniques
+Show your galleries of images, services and design techniques
 
 **Objective as a programmer :**
 
